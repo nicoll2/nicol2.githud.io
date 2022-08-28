@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+.bg-warning {
+	background-color: #7CC4D3 !important;	
+}
+.navbar-light .navbar-brand {
+    color: rgb(255 255 255 / 90%);
+}
+.navbar-light .navbar-nav .nav-link{
+	color:#F6FF70;
+} 
+.navbar-ligth .navbar-nav .nav-link:hover{
+	color:#EFCACA;
+}
+#contactform{
+		background-color: #9D76BB;
+		width: 500px;
+		padding: 20px;
+		margin: 60px auto;
+		border-radius: 20px;
+		-moz-border-redius: 15px;
+		-webkit-border-redius: 20px;
+}
+#contactform input,
+#contactform select,
+#contactform textarea,
+#contactform label {
+		font-size: 15px;
+		margin-bottom: 1px;
+		font-family: Arial, San-serif;
+		align-content: center;
+}
+#contactform input,
+#contactform select,
+#contactform textarea{
+		width: 300px;
+		background-color: #FFFFFF;
+		border: 0;
+		-moz-border-redius: 5px;
+		-webkit-border-redius: 5px;
+		border-radius: 5px;
+		margin-bottom: 5px;
+		padding: 5px;
+		align-items: flex-end;
+}
+#contactform textarea:focus{
+		background-color: #C1DAF3;
+}
+#contactform textarea{
+		height: 100px;
+		width: 440px}
+#contactform #submit{
+		width: 200px;
+		color: #000000;
+		border: none;
+		background-color: #DB5F5F;
+		margin-left: 30%;
+}
+#contactform #submit:hover{
+		background-color: #8CD5FF;
+		color: #6EA070;
+}
+.pie01{
+	background-color: #58C0DB;
+	color:#FFFFFF;
+	margin-top: 60px;
+}
+.pie01 a{
+	color:#000000;
+}
+.pie01 a{
+	color:#000000;
+}
+.pie2{
+	background-color: #000000;
+	color: #FFFFFF;
+	padding-top: 20PX;
+	padding-bottom: 20PX;
+}
+

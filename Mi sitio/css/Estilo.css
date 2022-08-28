@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+/* aplica formato al encabezado */
+Body header{
+		background-color: #710EDF;
+		text-align: center;
+		color: #E7FFB1;
+		text-shadow: 3px 2px #060606;
+		font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+		font-size: 30;
+}
+.bg-warning {
+	background-color: #7CC4D3 !important;	
+}
+.navbar-light .navbar-brand {
+    color: rgb(255 255 255 / 90%);
+}
+.navbar-light .navbar-nav .nav-link{
+	color:#F6FF70;
+} 
+.navbar-ligth .navbar-nav .nav-link:hover{
+	color:#EFCACA;
+}
+
+.pie01{
+	background-color: #58C0DB;
+	color:#FFFFFF;
+	margin-top: 60px;
+}
+.pie01 a{
+	color:#000000;
+}
+.pie01 a{
+	color:#000000;
+}
+.pie2{
+	background-color: #000000;
+	color: #FFFFFF;
+	padding-top: 20PX;
+	padding-bottom: 20PX;
+}
+

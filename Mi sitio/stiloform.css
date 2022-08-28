@@ -1,0 +1,107 @@
+@charset "utf-8";
+body header{
+	background-color:#FF5733;
+	text-align:center;
+	color: #000000;
+	text-shadow:3px 2px #CC0000;
+	font-family: Constantia,"Lucida Bright","DejaVu Serif",Georgia,"serif";
+	font-size:30;
+}
+.menu{
+	color:#000000;
+	margin-bottom:5px;
+	padding-bottom:3px;
+	padding-top:3px;
+	padding-right:3px;
+	padding-left:3px;
+	background-color:#666699;
+	text-align:center;
+	position:relative;
+}
+.menu ul{
+	background-color:#FFFF99;
+	margin:0;
+	padding:0;
+	border:1px solid#7C7C7C;
+	overflow:hidden;
+	list-style-type:none;
+}
+.menu ul li{
+	float:left;
+	width:100px;
+}
+.menu ul li:hover{
+	background-color:#FF9966;
+}
+ul li a{
+	border-left:1px solid #000000;
+	border-right:1px solid #3399FF;
+	text-shadow:0px 0px #99FFCC;
+	padding:.3em;
+	display:block;
+	text-decoration: none;
+}
+ul li a:hover{
+	color:#FF66cc;
+}
+#contactform{
+	background-color:#cccc66;
+	width:500px;
+	padding:20px;
+	margin:60px auto;
+	border-radius:20px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:20px;
+}
+#contactform input,
+#contactform select,
+#contactform textarea,
+#contactform label{
+		font-size:15px;
+		margin-bottom:1px;
+		font-family:Arial, San-serif;
+		align-content: center;
+}
+#contactform input,
+#contactform select,
+#contactform textarea{
+	width: 320px;
+	background-color:#E4FCBB;
+	border:0;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	margin-bottom:5px;
+	padding:5px;
+	align-items:flex-end;
+}
+#contactform input:focus,
+#contactform select:focus,
+#contactform textarea:focus{
+	background-color: #C1DAF3;
+}
+#contactform textarea{
+	height:100px;
+	width:500px}
+#contactform #submit{
+	width:200px;
+	color:#000000;
+	border:none;
+	background-color:#165DD9;
+	margin-left: 30%;
+}
+#contactform #submit:hover{
+	background-color:#BFD7C1;
+	color:#6EA070;
+}
+input:required,
+textarea:required{
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	-o-box-shadow:none}
+#failure, #success{
+	color:#6EA070;
+	display: none}
+
+
